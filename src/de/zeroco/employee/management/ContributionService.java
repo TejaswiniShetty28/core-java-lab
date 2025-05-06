@@ -28,7 +28,7 @@ public class ContributionService {
 	public static void main(String[] args) {
 //		Contribution contribution = new Contribution("01-01-2025", "", "f1", 30000.0f, "credit", "salary");
 //		ContributionService service = new ContributionService();
-		System.out.println(list());
+//		System.out.println(list());
 		
 	}
 
@@ -94,4 +94,5 @@ public class ContributionService {
         }
         return "Deleted Successfully";
     }
+    
 }

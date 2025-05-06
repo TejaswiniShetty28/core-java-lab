@@ -8,19 +8,19 @@ import java.util.List;
 
 public class ContributionTest {
 
-    public static void main(String[] args) {
-        ContributionService service = new ContributionService();
-        SaveValidContribution(service);
-        SaveWithInvalidFrom(service);
-        SaveWithInvalidTo(service);
-        SaveWithNegativeAmount(service);
-        SaveWithInvalidDate(service);
-        SaveWithInvalidCreditOrDebit(service);
-        ListContributions(service);
-        DeleteExistingContribution(service);
-        DeleteNonExistingContribution(service);
-        ListContributionsAfterDeletion(service);
-    }
+//    public static void main(String[] args) {
+//        ContributionService service = new ContributionService();
+//        SaveValidContribution(service);
+//        SaveWithInvalidFrom(service);
+//        SaveWithInvalidTo(service);
+//        SaveWithNegativeAmount(service);
+//        SaveWithInvalidDate(service);
+//        SaveWithInvalidCreditOrDebit(service);
+//        ListContributions(service);
+//        DeleteExistingContribution(service);
+//        DeleteNonExistingContribution(service);
+//        ListContributionsAfterDeletion(service);
+//    }
 
     public static void SaveValidContribution(ContributionService service) {
         Contribution contribution = new Contribution("2025-01-01", "f1", "f2", 5000.0f, "debit", "f1 given money to f2");
@@ -77,4 +77,5 @@ public class ContributionTest {
             System.out.println(contribution);
         }
     }
+    
 }

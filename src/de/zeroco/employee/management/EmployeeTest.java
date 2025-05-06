@@ -5,19 +5,19 @@ import java.util.List;
 public class EmployeeTest {
 
 	public static void main(String[] args) {
-        EmployeeService service = new EmployeeService();
-        SaveValidEmployee(service);
-        SaveWithInvalidEmail(service);
-        SaveWithNegativeSalary(service);
-        SaveWithInvaliDob(service);
-        SaveWithDuplicateEmail(service);
-        ListEmployees(service);
-        DeleteExistingEmployee(service);
-        DeleteNonExistingEmployee(service);
-        ListEmployeesAfterDeletion(service);
-        System.out.println("age below 18 :");
-        System.out.println("age above 18 :");
-        System.out.println("age is negative :");
+//        EmployeeService service = new EmployeeService();
+//        SaveValidEmployee(service);
+//        SaveWithInvalidEmail(service);
+//        SaveWithNegativeSalary(service);
+//        SaveWithInvaliDob(service);
+//        SaveWithDuplicateEmail(service);
+//        ListEmployees(service);
+//        DeleteExistingEmployee(service);
+//        DeleteNonExistingEmployee(service);
+//        ListEmployeesAfterDeletion(service);
+//        System.out.println("age below 18 :");
+//        System.out.println("age above 18 :");
+//        System.out.println("age is negative :");
     }
 
     public static void SaveValidEmployee(EmployeeService service) {
@@ -69,4 +69,5 @@ public class EmployeeTest {
             System.out.println(emp);
         }
     }
+    
 }

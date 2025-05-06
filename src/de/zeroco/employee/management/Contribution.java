@@ -9,9 +9,9 @@ public class Contribution {
     public final static String FILE_NAME = "Contribution.csv";
     public final static String[] HEADERS = {"date", "from", "to", "amount", "credit/debit", "description"};
     
-    public static void main(String[] args) {
-		System.out.println("hi");
-	}
+//    public static void main(String[] args) {
+//		System.out.println("hi");
+//	}
     
     private LocalDate date;
     private String from;
@@ -110,4 +110,5 @@ public class Contribution {
             Utility.validateCSVHeaders(getFilePath(), HEADERS);
         }
     }
+    
 }

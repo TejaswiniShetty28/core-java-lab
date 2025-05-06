@@ -25,7 +25,7 @@ public class ContactService {
 //		Contact contact = new Contact("Tejaswini", "9949895392", "tejaswini@gmail.com");
 //		Contact contactTwo = new Contact("Tejaswini", "7671834414", "sai@gmail.com");
 //		ContactService  service = new ContactService();
-		System.out.println(list());
+//		System.out.println(list());
 	}
     public String save(Contact contact) {
         if (contact == null || validateDetails(contact)) return "";
