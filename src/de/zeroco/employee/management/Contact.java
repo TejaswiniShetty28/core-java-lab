@@ -73,5 +73,4 @@ public class Contact {
     	  Utility.validateCSVHeaders(getFilePath(), HEADERS);
       }
     }
-    
 }

@@ -110,5 +110,4 @@ public class Contribution {
             Utility.validateCSVHeaders(getFilePath(), HEADERS);
         }
     }
-    
 }

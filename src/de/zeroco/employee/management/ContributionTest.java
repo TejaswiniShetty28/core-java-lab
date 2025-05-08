@@ -77,5 +77,4 @@ public class ContributionTest {
             System.out.println(contribution);
         }
     }
-    
 }
