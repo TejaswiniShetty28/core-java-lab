@@ -33,4 +33,5 @@ public class WideningOfByte {
 		double secondNum = firstNum;
 		return secondNum;
 	}
+	
 }

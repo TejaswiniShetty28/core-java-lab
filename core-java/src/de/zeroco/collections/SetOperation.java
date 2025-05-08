@@ -1,5 +1,6 @@
 package de.zeroco.collections;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -56,10 +57,10 @@ public class SetOperation {
         return duplicateSet;
 	}
 	
-	public static void main(String[] args) {
-		List<Integer> listOne = new ArrayList<Integer>(Arrays.asList());
-		List<Integer> listTwo = new ArrayList<Integer>(Arrays.asList());
-        System.out.println(union(null, listTwo));
-		System.out.println(intersection(listOne, listTwo));
-	}
+//	public static void main(String[] args) {
+//		List<Integer> listOne = new ArrayList<Integer>(Arrays.asList());
+//		List<Integer> listTwo = new ArrayList<Integer>(Arrays.asList());
+//        System.out.println(union(null, listTwo));
+//		System.out.println(intersection(listOne, listTwo));
+//	}
 }

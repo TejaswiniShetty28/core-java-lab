@@ -2,13 +2,11 @@ package de.zeroco.array;
 
 //import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+//import java.util.List;
 
 public class ArrayUtility {
 	
 	public static void main(String[] args) {
-		
-//		List<Integer> l = new ArrayList<Integer>();
 		
 		int[] clonedArray = copyElements();
 		for (int i : clonedArray) {

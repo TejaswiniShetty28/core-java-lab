@@ -34,4 +34,5 @@ public class FloatDataTypeCasting {
 		double secondNum = firstNum;
 		return secondNum;
 	}
+	
 }

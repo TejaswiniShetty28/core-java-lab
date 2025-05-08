@@ -35,4 +35,5 @@ public class DoubleDataTypeCasting {
 		float secondNo = (float) firstNo;
 		return secondNo;
 	}
+	
 }

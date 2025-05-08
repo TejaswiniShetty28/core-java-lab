@@ -45,6 +45,7 @@ public class TransactionLog {
 	  private boolean isValidTransaction(Account sourceAccount, Account targetAccount) {
 	        return (sourceAccount.getAccountType().equalsIgnoreCase("savingsaccount") || sourceAccount.getAccountType().equalsIgnoreCase("currentaccount"))  && (targetAccount.getAccountType().equalsIgnoreCase("savingsaccount") || targetAccount.getAccountType().equalsIgnoreCase("currentaccount")); 
 	  }
+	  
 }
 
 

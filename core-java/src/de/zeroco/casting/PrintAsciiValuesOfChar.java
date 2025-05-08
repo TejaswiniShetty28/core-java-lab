@@ -14,4 +14,5 @@ public class PrintAsciiValuesOfChar {
 		}
 		return result.substring(1);
 	}
+	
 }

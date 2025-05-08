@@ -34,5 +34,4 @@ public class ShortDataTypeCasting {
 		double secondNum = firstNum;
 		return secondNum;
 	}
-
 }

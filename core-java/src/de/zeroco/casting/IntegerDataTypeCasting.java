@@ -34,4 +34,5 @@ public class IntegerDataTypeCasting {
 		double secondNum = firstNum;
 		return secondNum;
 	}
+	
 }

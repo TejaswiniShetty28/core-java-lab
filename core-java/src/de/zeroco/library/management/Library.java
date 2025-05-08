@@ -288,31 +288,32 @@ public class Library {
 	}
 
 
-	public static void main(String[] args) {
-		Book bookOne = new Book("10985", "The Mysterious Cave", "Chethan Bhagath");
-		Book bookTwo = new Book("10986", "Wings of Fire", "Kalam");
-		Book bookThree = new Book("10987", "Malgudi Days", "R.K");
-		Book bookFour = new Book("10988", "The Inheritance of Loss", "Kiran Desai");
-		Book bookFive = new Book("10989", "A Suitable Boy", "Vikram Seth");
-		Book[] allBooks = { bookOne, bookTwo, bookThree, bookFour, bookFive};
-		Book[] borrowedBooks = new Book[0];
-		Book[] firstUser = {};
-		Book[] secondUser = {};
-		Book[] thirdUser = {};
-		User userOne = new User(1, "Tejaswini", firstUser);
-		User userTwo = new User(2, "Roopa", secondUser);
-		User userThree = new User(3, "Sai", thirdUser);
-		User[] allUsers = { userOne, userTwo, userThree};
-		Library library = new Library(allBooks, allUsers, borrowedBooks);
-		library.borrowBook(bookOne);
-		System.out.println("After User One borrows a book:");
-		System.out.println(library.printAvailableBooks());
-		System.out.println(library.printBorrowedBooks());
-		library.returnBook(bookOne);
-		System.out.println("After User One returns the book:");
-		System.out.println(library.printAvailableBooks());
-		System.out.println(library.printBorrowedBooks());
-	}
+//	public static void main(String[] args) {
+//		Book bookOne = new Book("10985", "The Mysterious Cave", "Chethan Bhagath");
+//		Book bookTwo = new Book("10986", "Wings of Fire", "Kalam");
+//		Book bookThree = new Book("10987", "Malgudi Days", "R.K");
+//		Book bookFour = new Book("10988", "The Inheritance of Loss", "Kiran Desai");
+//		Book bookFive = new Book("10989", "A Suitable Boy", "Vikram Seth");
+//		Book[] allBooks = { bookOne, bookTwo, bookThree, bookFour, bookFive};
+//		Book[] borrowedBooks = new Book[0];
+//		Book[] firstUser = {};
+//		Book[] secondUser = {};
+//		Book[] thirdUser = {};
+//		User userOne = new User(1, "Tejaswini", firstUser);
+//		User userTwo = new User(2, "Roopa", secondUser);
+//		User userThree = new User(3, "Sai", thirdUser);
+//		User[] allUsers = { userOne, userTwo, userThree};
+//		Library library = new Library(allBooks, allUsers, borrowedBooks);
+//		library.borrowBook(bookOne);
+//		System.out.println("After User One borrows a book:");
+//		System.out.println(library.printAvailableBooks());
+//		System.out.println(library.printBorrowedBooks());
+//		library.returnBook(bookOne);
+//		System.out.println("After User One returns the book:");
+//		System.out.println(library.printAvailableBooks());
+//		System.out.println(library.printBorrowedBooks());
+//	}
+	
 }
 
 	

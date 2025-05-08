@@ -155,4 +155,5 @@ public class Account {
 	public String getAccountType() {
 		return accountType;
 	}
+	
 }

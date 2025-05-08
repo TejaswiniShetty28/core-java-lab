@@ -1,7 +1,6 @@
 package de.zeroco.collections;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import de.zeroco.main.Utility;
 
@@ -141,4 +140,5 @@ public class ListOperation {
         }
         return false;
     }
+	
 }

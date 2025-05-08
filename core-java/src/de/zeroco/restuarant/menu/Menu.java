@@ -1,6 +1,5 @@
 package de.zeroco.restuarant.menu;
 
-//import java.util.HashMap;
 import java.util.Map;
 
 import de.zeroco.main.Utility;
@@ -120,16 +119,16 @@ public class Menu{
 //		menuOperation.addItem(nonCoffee, "Milk Shake", 80);
 //		menuOperation.addItem(nonCoffee, "Smoothie", 90);
 //		menuOperation.addItem(nonCoffee, "Vanilla Milkshake", 100);
-////		System.out.println(coffee);
-////		System.out.println(tea);
-////		System.out.println(dessert);
-////		System.out.println(nonCoffee);
-//		System.out.println(menuOperation.displayMenu(coffee));
-//		System.out.println(menuOperation.displayMenu(tea));
-//		System.out.println(menuOperation.displayMenu(nonCoffee));
-//		System.out.println(menuOperation.displayMenu(dessert));
-//		System.out.println(menu.displayItems());
-//		System.out.println(menu.displayMenuOperations());
+//		System.out.println(coffee);
+//		System.out.println(tea);
+//		System.out.println(dessert);
+//		System.out.println(nonCoffee);
+////		System.out.println(menuOperation.displayMenu(coffee));
+////		System.out.println(menuOperation.displayMenu(tea));
+////		System.out.println(menuOperation.displayMenu(nonCoffee));
+////		System.out.println(menuOperation.displayMenu(dessert));
+////		System.out.println(menu.displayItems());
+////		System.out.println(menu.displayMenuOperations());
 //		
 //		
 //		menu.menu("Coffee", 1, menuOperation, coffee, "Black Coffee", 20);

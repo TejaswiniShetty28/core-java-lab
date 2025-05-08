@@ -65,10 +65,10 @@ public class GameParticipation {
     }
     
     public static void main(String[] args) {
-        int[] studentsId = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-        int[] carromTeam = {2, 5, 6, 13};
-        int[] cricketTeam = {12, 1, 20, 7, 8, 2, 5, 6, 13, 11, 9, 3, 19};
-        int[] badmintonTeam = {4, 10, 14, 15};    
-        System.out.println(getStudentGameList(studentsId, cricketTeam, badmintonTeam, carromTeam));
+//        int[] studentsId = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+//        int[] carromTeam = {2, 5, 6, 13};
+//        int[] cricketTeam = {12, 1, 20, 7, 8, 2, 5, 6, 13, 11, 9, 3, 19};
+//        int[] badmintonTeam = {4, 10, 14, 15};    
+//        System.out.println(getStudentGameList(studentsId, cricketTeam, badmintonTeam, carromTeam));
     }
 }
